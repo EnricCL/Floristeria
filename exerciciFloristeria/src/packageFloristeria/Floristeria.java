@@ -1,3 +1,4 @@
+
 package packageFloristeria;
 
 import java.util.ArrayList;
@@ -111,7 +112,7 @@ public class Floristeria {
 			estoc += f.toString()+"\n";
 		}
 		
-		Iterator<Decoracio> iteDeco = decoracions.iterator();
+		Iterator<Decoracio> iteDeco =decoracions.iterator();
 		estoc+="\nDECORACIONS:\n";
 		while (iteDeco.hasNext()) {
 			Decoracio d = (Decoracio) iteDeco.next();

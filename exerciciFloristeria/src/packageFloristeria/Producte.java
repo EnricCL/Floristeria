@@ -8,6 +8,5 @@ public abstract class Producte {
 	public Producte(int preu){
 		this.preu = preu;
 	}
-	
-	
+
 }
