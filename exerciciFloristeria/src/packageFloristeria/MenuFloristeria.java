@@ -14,14 +14,14 @@ public class MenuFloristeria {
 		
 		String opcio, dada1,dada2;	
 		
-		boolean menuE = true;
+		boolean menu = true;
 		
 		Scanner entrada = new Scanner(System.in);
 		
 		Floristeria floristeria = new Floristeria();
 		floristeria.crearFloristeria(nom);
 		
-		while(menuE) {
+		while(menu) {
 			System.out.println("Floristeria "+ nom + " | Què vols fer?"
 								+ "\n 1: Afegir un arbre."
 								+ "\n 2: Afegir una flor."
@@ -89,11 +89,8 @@ public class MenuFloristeria {
 				
 				if(opcio.equals("5")) {
 					System.out.println("Programa finalitzat.");
-<<<<<<< HEAD
 					System.out.println("Que vagi bé!");
-=======
-					System.out.println("Que vagi bé!");
->>>>>>> enric1
+					System.out.println("...");
 					entrada.close();
 					System.exit(0);
 				}
