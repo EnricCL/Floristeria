@@ -89,7 +89,11 @@ public class MenuFloristeria {
 				
 				if(opcio.equals("5")) {
 					System.out.println("Programa finalitzat.");
+<<<<<<< HEAD
 					System.out.println("Que vagi bé!");
+=======
+					System.out.println("Que vagi bé!");
+>>>>>>> enric1
 					entrada.close();
 					System.exit(0);
 				}
