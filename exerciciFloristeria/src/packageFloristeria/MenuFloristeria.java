@@ -14,14 +14,14 @@ public class MenuFloristeria {
 		
 		String opcio, dada1,dada2;	
 		
-		boolean menu = true;
+		boolean menuE = true;
 		
 		Scanner entrada = new Scanner(System.in);
 		
 		Floristeria floristeria = new Floristeria();
 		floristeria.crearFloristeria(nom);
 		
-		while(menu) {
+		while(menuE) {
 			System.out.println("Floristeria "+ nom + " | Què vols fer?"
 								+ "\n 1: Afegir un arbre."
 								+ "\n 2: Afegir una flor."
